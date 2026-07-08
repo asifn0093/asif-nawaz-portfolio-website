@@ -12,7 +12,7 @@ import Certificates from "./pages/Certificates";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/asif-nawaz-portfolio-website">
       <ThemeProvider>
         <Routes>
           <Route element={<Layout />}>
